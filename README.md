@@ -1,4 +1,6 @@
 # Strip-Attention-Net
 
 # Abstract
-近年来，深度学习方法被广泛用于遥感图像中的道路提取。然而，现有的深度学习语义分割网络普遍表现出道路分割的连续性较差，这是由于遥感图像中道路与道路周围建筑物之间的高度相似性，以及阴影和遮挡的存在。为了解决这个问题，本文提出了一种带状注意力网络（SANet），用于提取遥感图像中的道路。首先，设计了一个带状注意力模块（SAM）来提取道路的上下文信息和空间位置信息。其次，通道注意力融合模块（CAF）旨在融合低级特征和高级特征。网络使用 CITY-OSM 数据集进行训练和测试，DeepGlobe 道路提取数据集和 CHN6-CUG 数据集。测试结果表明，SANet表现出优异的道路分割性能，与其他网络相比，能够更好地解决道路分割连续性差的问题.
+
+  In recent years, deep learning methods have been widely used for road extraction in remote sensing images. However, the existing deep learning semantic segmentation networks generally show poor continuity in road segmentation due to the high-class similarity between roads and buildings surrounding roads in remote sensing images, and the existence of shadows and occlusion.To deal with this problem, this paper proposes a strip attention networks (SANet) for extracting roads in remote sensing images. Firstly, a strip attention module (SAM) is designed to extract the contextual information and spatial position information of the roads. Secondly, a channel attention fusion module (CAF) is designed to fuse low-level features and high-level features. The network is trained and tested using the CITY-OSM dataset, DeepGlobe road extraction dataset, and CHN6CUG dataset. The test results indicate that SANet exhibits excellent road segmentation performance and can better solve the problem of poor road segmentation continuity compared with other networks. 
+  
